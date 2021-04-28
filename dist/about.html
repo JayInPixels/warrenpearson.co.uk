@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> 
+    
+    <title>About Warren Pearson</title>
+</head>
+<body>
+    
+    <header>
+        <a href="index.html">
+            <div class="logo">
+            </div>
+        </a>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+        </div>
+
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav__item">
+                    <a href="index.html" class="menu-nav__link">
+                        Home
+                    </a>
+                </li>
+                <li class="menu-nav__item active">
+                    <a href="about.html" class="menu-nav__link">
+                        About Me
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="projects.html" class="menu-nav__link">
+                        My Projects
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="contact.html" class="menu-nav__link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="about__wrapper">
+                <div class="about__bio-image">
+                    <h2 class="text-secondary">About Me</h2>
+                    <p>A jack of all trades, master of none. A Web Designer with over 12+ years of experience in Design, Development, UX and everything in between. I also have a use passion in art and illustration.</p>
+                </div>
+            </div>
+
+            <div class="jobs">
+                <div class="jobs__job">
+                    <h2 class="text-secondary">Current</h2>
+                    <h3>Company</h3>
+                    <h6>Front End Web Developer</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem blanditiis debitis tempore saepe unde, atque consectetur magni nesciunt nemo ipsam ut quasi placeat pariatur obcaecati officiis nisi repellendus consequatur necessitatibus?</p>
+                </div>
+                <div class="jobs__job">
+                    <h2 class="text-secondary">2018 - 2020</h2>
+                    <h3>Company 2</h3>
+                    <h6>Web Designer</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem blanditiis debitis tempore saepe unde, atque consectetur magni nesciunt nemo ipsam ut quasi placeat pariatur obcaecati officiis nisi repellendus consequatur necessitatibus?</p>
+                </div>
+                <div class="jobs__job">
+                    <h2 class="text-secondary">2016 - 2018</h2>
+                    <h3>Company 3</h3>
+                    <h6>Web Developer</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem blanditiis debitis tempore saepe unde, atque consectetur magni nesciunt nemo ipsam ut quasi placeat pariatur obcaecati officiis nisi repellendus consequatur necessitatibus?</p>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="http://www.twitter.com/jayinpixels">
+                  <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com/warren.jay.pearson">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://instagram.com/jayinpixels">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://github.com/JayInPixels">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </div>
+
+            <footer>
+                &copy; Copyright 2021
+            </footer>
+        </section>
+    </main>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut('slow');
+        });
+        
+    </script>
+    <script src="https://kit.fontawesome.com/7140b812a2.js"></script>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
